@@ -1,43 +1,29 @@
-# Q1, 2, 3, 6 11
+# 
+hong = { '국어' : 80, '영어': 75, '수학': 55}
+print(hong.values())
 
-# Q1
-score = { 'korean' : 80 , 'english' : 75, 'math': 55 }
+sum = 0
+for item in hong.values():
+    sum += item
 
-print(score.keys())
-total = 0
+print(f'홍길동의 평균점수는 {sum / 3} 입니다')
 
-for item in score.keys():
-    total = total + score.get(item)
+number = 13
+result = 13 % 2 == 0
+print(f'{number} 은 짝수? {result}')
 
-print("평균 : ",total/3)
-print(f'홍길동의 평균 점수는 {total/3} 입니다.')
-
-
-# Q2
-num1 = 13
-
-print("홀수? : ",num1%2==1)
-
-# Q3
-pin = "881120-1068234"
-# yyyymmdd = pin[:6]
-# num = pin[7:] 
+pin = '881020-1068234'
 yyyymmdd = pin.split('-')[0]
 num = pin.split('-')[1]
+print(yyyymmdd)
+print(num)
 
+a = [1,3,5,4,2]
+a.sort()
+print(a)
+a.sort(reverse=True)
+print(a)
 
-print("yyyymmdd : ",yyyymmdd)
-print("num : ",num)
+a = [1,1,1,2,2,3,3,3,4,4,5]
+print(set(a))
 
-# Q6
-list1 =[1, 3, 5, 4, 2]
-list1.sort()
-print("list1 : ", list1)
-list1.sort(reverse=True)
-print("list1 : ", list1)
-
-# Q11
-list2 = [1, 1, 1, 2, 2, 3, 3, 3, 4, 4, 5]
-list2Set = set(list2)
-list3 = list(list2Set)
-print("list3 : ", list3)

@@ -82,4 +82,22 @@
 
 <img src="https://raw.githubusercontent.com/hugoMGSung/bigdata-python-2023/main/images/crawling05.png" width="700" alt="워드클라우드 결과">
 
+## 12일차
+- 파이썬 데이터분석 실습
+    - 서울 스타벅스 매장 분석
+        - 스타벅스 웹사이트 매장 지역검색 셀레니움 데이터 수집
+        - 서울열린데이터광장 행정구역, 인구, 사업체 데이터 수집
+
+<img src="https://raw.githubusercontent.com/hugoMGSung/bigdata-python-2023/main/images/crawling06.png" width="700" alt="스타벅스">
+
+## 13일차
+- 파이썬 데이터분석 실습
+    - 서울 스타벅스 매장 분석
+        - 지도 시각화 계속
+        - 지도 분석
+    
+## 14일차
+- 파이썬 데이터분석 실습
+    - 다나와 웹사이트 크롤링
+    - 무선청소기 데이터 전처리
     
